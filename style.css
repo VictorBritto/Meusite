@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.fundo{
+    background-image: url(image/fundo.png);
+}
+
+.logo{
+    height: 70px;
+    margin-left: 300px;
+    margin-top: 100px; 
+    cursor: pointer;
+}
+
+main{
+    margin-top: 150px;
+    justify-self: start;
+    font-family: 'Poppins', sans-serif;
+    font-size: 62px;
+    font-weight: 700;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    color: white;
+    line-height: 90px;
+    margin-left: 300px;
+}
+
+.btn{
+    color: rgb(255, 255, 255);
+    margin-left: 980px;
+    margin-top: 130px;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: 'Poppins', sans-serif;
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn::after{
+    content: '';
+    height: 2px;
+    width: 0%;
+    background-color: #01e6e6;
+    display: block;
+    transition: .5s ease-in-out;
+}
+
+.btn:hover::after{
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: #01e6e6;
+    display: block;
+}
+
+
+.btn2{
+    color: rgb(255, 255, 255);
+    margin-left: 80px;
+    margin-top: 130px;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: 'Poppins', sans-serif;
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn2::after{
+    content: '';
+    height: 2px;
+    width: 0%;
+    background-color: #01e6e6;
+    display: block;
+    transition: .5s ease-in-out;
+}
+
+.btn2:hover::after{
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: #01e6e6;
+    display: block;
+}
+.alinhar{
+    display: flex;
+}
+
+
+
+
+
+.botao {
+    position: relative;
+    padding: 19px 36px;
+    display: block;
+    text-decoration: none;
+    overflow: hidden;
+    border-radius: 40px;
+    border: none;
+    margin-left: 300px;
+    margin-top: 50px;
+    font-size: large;
+    cursor: pointer;
+   }
+   
+   .botao span {
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 5px;
+    z-index: 1;
+   }
+   
+   .botao .liquid {
+    position: absolute;
+    top: -80px;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background: #01e6e6;
+    box-shadow: inset 0 0 50px rgba(0, 0, 0, .5);
+    transition: .5s;
+   }
+   
+   .botao .liquid::after,
+   .botao .liquid::before {
+    content: '';
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    background: #fff;
+   }
+   
+   .botao .liquid::before {
+    border-radius: 45%;
+    background: rgba(20, 20, 20, 1);
+    animation: animate 5s linear infinite;
+   }
+   
+   .botao .liquid::after {
+    border-radius: 40%;
+    background: rgba(20, 20, 20, .5);
+    animation: animate 10s linear infinite;
+   }
+   
+   .botao:hover .liquid {
+    top: -120px;
+   }
+   
+   @keyframes animate {
+    0% {
+     transform: translate(-50%, -75%) rotate(0deg);
+    }
+   
+    100% {
+     transform: translate(-50%, -75%) rotate(360deg);
+    }
+   }
+
+
+
+   .botao2 {
+    position: relative;
+    padding: 19px 36px;
+    display: block;
+    text-decoration: none;
+    overflow: hidden;
+    border-radius: 40px;
+    border: none;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: large;
+    cursor: pointer;
+   }
+   
+   .botao2 span {
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 5px;
+    z-index: 1;
+   }
+   
+   .botao2 .liquid {
+    position: absolute;
+    top: -80px;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background: #01e6e6;
+    box-shadow: inset 0 0 50px rgba(0, 0, 0, .5);
+    transition: .5s;
+   }
+   
+   .botao2 .liquid::after,
+   .botao2 .liquid::before {
+    content: '';
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    background: #fff;
+   }
+   
+   .botao2 .liquid::before {
+    border-radius: 45%;
+    background: rgba(20, 20, 20, 1);
+    animation: animate 5s linear infinite;
+   }
+   
+   .botao2 .liquid::after {
+    border-radius: 40%;
+    background: rgba(20, 20, 20, .5);
+    animation: animate 10s linear infinite;
+   }
+   
+   .botao2:hover .liquid {
+    top: -120px;
+   }
+   
+   @keyframes animate {
+    0% {
+     transform: translate(-50%, -75%) rotate(0deg);
+    }
+   
+    100% {
+     transform: translate(-50%, -75%) rotate(360deg);
+    }
+   }
+
+ 
